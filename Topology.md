@@ -1,3 +1,3 @@
 #Star Topology
 
-![Star Topology Image](URL_to_your_image)
+![Star Topology Image](Screenshot 2024-10-21 001746.png)
