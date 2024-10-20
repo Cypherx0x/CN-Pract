@@ -1,0 +1,43 @@
+Ipconfig/ifconfig for linux:
+Displays all current TCP/IP network configuration values and refreshes Dynamic Host Configuration
+Protocol (DHCP) and Domain Name System (DNS) settings. Used without parameters, ipconfig displays
+Internet Protocol version 4 (IPv4) and IPv6 addresses, subnet mask, and default gateway for all adapters.
+
+CMD:
+ipconfig
+
+
+
+Ping:
+The ping command is a command-prompt command, used to test the ability of the source computer to
+reach a specified destination computer.It’s usually used as a simple way to verify that a computer can
+communicate over the network with another computer or network device.
+Example
+ping [your ip address]
+
+Tracert for windows & traceroute for linux:
+The tracert command (spelled traceroute in Unix/linux implementations) is one of the key diagnostic tools
+for TCP/IP. It displays a list of all routers that a packet must go through to get from the computer where
+tracert is run to any other computer on the internet.
+
+CMD:
+traceroute -d (IP Address)
+
+Nslookup:
+Nslookup(from name server lookup) is a network administration command line tool for querying the
+domain name system (DNS) to obtain the mapping between domain name and IP address ,or other DNS
+records.
+
+CMD:
+nslookup www.google.com
+
+
+Arp:
+Arp command manipulates the System’s ARP cache . It allows a complete dump of the ARP cache .ARP
+stands for Address Resolution Protocol.The primary function of this protocol is to resolve the IP address
+of a system to its mac address, and hence it works between level 2(Data link layer ) and level 3 ( Network
+layer).
+
+CMD:
+arp -a 
+
